@@ -21,7 +21,9 @@ class Artist
   end
   
   def self.find_or_create_by_name(name)
-    
+    @@all.detect do |artist_name|
+      
+    end
   end
   
   def print_songs()
