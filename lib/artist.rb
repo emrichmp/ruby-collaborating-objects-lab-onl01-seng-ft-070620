@@ -22,7 +22,7 @@ class Artist
   
   def self.find_or_create_by_name(name)
     @@all.detect do |artist_name|
-      
+      name = artist_name
     end
   end
   
